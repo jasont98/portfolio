@@ -22,8 +22,24 @@
 
 .page-wrapper {
   min-height: 100vh;
+  
 }
 
 html {
   background-color: black;
+}
+
+body {
+  overflow: hidden;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
 }
