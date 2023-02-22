@@ -7,8 +7,8 @@ const Layout = ({ children }) => {
             <div className="flex items-center space-x-4">
               <Link href="/">Home</Link>
               <Link href="/about">About Me</Link>
-              <Link href="/projects">My Projects</Link>
-              <Link href="/skills">My Skills</Link>
+              {/* <Link href="/projects">My Projects</Link>
+              <Link href="/skills">My Skills</Link> */}
             </div>
           </nav>
           {children}
