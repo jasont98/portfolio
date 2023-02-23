@@ -31,7 +31,7 @@ const about = () => {
           </ul>
         </div>
         <div className="container mx-auto my-8 p-6 text-xl font-bold mb-4 text-blue-500">
-          <a href="https://docs.google.com/document/d/1_vkU1MX_fhnnFOelXsdgdYK_88w4c4nFqj1gW3kM07Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1ZkPGI2ljXdcOee5l9Ba3RvUDUh9Oc2lQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             My Resume
           </a>
         </div>
