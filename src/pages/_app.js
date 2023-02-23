@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps, router }) {
     <Layout>
       <TransitionGroup>
         <CSSTransition key={router.route} classNames="fade" timeout={500}>
-          <div className="page-wrapper text-white">
+          <div className="page-wrapper text-white bg-gray-900">
             <Component {...pageProps} />
           </div>
         </CSSTransition>

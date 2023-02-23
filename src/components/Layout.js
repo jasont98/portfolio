@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <nav className="sticky text-white top-0 bg-transparent bg-opacity-90 backdrop-filter backdrop-blur-lg flex justify-between items-center py-4 px-8">
+      <nav className="sticky text-white top-0 bg-gray-900  backdrop-filter backdrop-blur-lg flex justify-between items-center py-4 px-8">
         <div className="flex items-center space-x-4">
           <Link href="/">Home</Link>
           <Link href="/about">About Me</Link>
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <div className="flex-1">
         {children}
       </div>
-      <footer className="bg-gray-900 text-white py-6">
+      <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto">
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4">Contact Me</h3>

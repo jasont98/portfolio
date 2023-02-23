@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div className="mx-auto max-w-7xl">
       <div>
-        <h1>About Me</h1>
+        {/* <h1>About Me</h1> */}
         <br></br>
       </div>
        <div>
@@ -33,9 +33,9 @@ const about = () => {
         <div>
           <h1>Links:</h1>
           <br></br>
-          <h2><a href="https://github.com/jasont98" className="underline text-blue-500">Github</a></h2>
-          <h2><a href="mailto:jashoang2583@gmail.com" className="underline text-blue-500">Email</a></h2>
-          <h2><a href="https://medium.com/@jashoang2583" className="underline text-blue-500">Medium</a></h2>
+          <li><a href="mailto:jashoang2583@gmail.com" className="underline text-blue-500">Email</a></li>
+          <li><a href="https://github.com/jasont98" className="underline text-blue-500">Github</a></li>
+          <li><a href="https://medium.com/@jashoang2583" className="underline text-blue-500">Medium</a></li>
         </div>
        </div>
     </div>
