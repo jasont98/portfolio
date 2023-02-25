@@ -29,9 +29,9 @@ html {
   background-color: #1F2937;
 }
 
-body {
+/* body {
   overflow: hidden;
-}
+} */
 
 .page-wrapper {
   min-height: 100vh;
@@ -44,3 +44,8 @@ footer {
   width: 100%;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}

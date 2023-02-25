@@ -6,13 +6,12 @@ import { faGithub, faMedium, faMailchimp, faLinkedin, } from '@fortawesome/free-
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <nav className="sticky text-white top-0 bg-gray-900  backdrop-filter backdrop-blur-lg flex justify-between items-center py-4 px-8">
-        <div className="flex items-center space-x-4">
+<nav className="navbar text-white bg-gray-900 backdrop-filter backdrop-blur-lg flex justify-between items-center py-4 px-8">        <div className="flex items-center space-x-4">
           <Link href="/">Home</Link>
           <Link href="/about">About Me</Link>
         </div>
       </nav>
-      <div className="flex-1">
+      <div className="flex-1 min-h-screen">
         {children}
       </div>
       <footer className="bg-gray-800 text-white py-6">
